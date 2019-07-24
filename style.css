@@ -1,3 +1,4 @@
+
 #contain {
     width: 35vw;
     height: 80vh;
@@ -7,11 +8,42 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
+    }
 
 header {
-    color: white;
+    color: white;       
+    width: 35vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
 }
+
 #title {    
-    font-size: 3em;
+    font-size: 2.5em;
 }
+
+#difficultChoice {          
+    width: 35vw;
+    background: rgb(44, 41, 41);
+}
+
+
+
+
+/* Marina */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    border: solid black 1px;
+    border-radius: 50%
+}
+
+
