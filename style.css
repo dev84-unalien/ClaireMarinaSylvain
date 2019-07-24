@@ -1,3 +1,4 @@
+
 #contain {
     width: 35vw;
     height: 80vh;
@@ -6,8 +7,10 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;    
-    font-family: 'Annie Use Your Telescope';
+    justify-content: space-evenly;  
+    font-family: 'Annie Use Your Telescope';  
+    
+    
     }
 
 header {
@@ -22,6 +25,7 @@ header {
 
 #title {    
     font-size: 2.5em;
+    margin-bottom: 1vw;
 }
 
 #difficultChoice {          
@@ -46,7 +50,7 @@ main{
     width: 50%;
     text-align: center;
     margin-top:5%;
-    
+    font-family: 'Annie Use Your Telescope';
 }
 #password{
     border: solid black 1px;
@@ -54,11 +58,16 @@ main{
     width: 50%;
     text-align: center;
     margin-top:5%;
+    font-family: 'Annie Use Your Telescope';
 }
+
+
+
 .regitered {
   font-size: 0.5em;
   color: white;
   margin-top: 5%;
+  cursor: pointer;
 }
 
 #log {
@@ -72,6 +81,25 @@ main{
 
 /* Claire */
 
+footer{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+   
+}
+
+#log {
+  border: solid black 1px;
+  background-color: #22b573;
+  color: white;
+  border-radius: 50px;
+  width: 9vw;
+  height: 5vh;
+  margin-top:5%;
+  font-family: 'Annie Use Your Telescope';
+  font-size: 0.8em;
+}
+
 #facebook {
   border: solid black 1px;
   background-color: #3b5997;
@@ -79,4 +107,7 @@ main{
   border-radius: 50px;
   width: 9vw;
   height: 5vh;
+  margin-top:5%;
+  font-family: 'Annie Use Your Telescope';
+  font-size: 0.8em;
 }
