@@ -2,4 +2,16 @@
     width: 35vw;
     height: 80vh;
     background: rgb(173, 25, 25);
+    font-size: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header {
+    color: white;
+}
+#title {    
+    font-size: 3em;
 }
