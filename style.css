@@ -36,14 +36,22 @@ header {
 
 main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
 input{
     border: solid black 1px;
-    border-radius: 50%
+    border-radius: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top:5%;
+}
+.regitered{
+    font-size: 0.5em;
+    color: white;
+    margin-top:5%;
 }
 
 
