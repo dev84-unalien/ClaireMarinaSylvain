@@ -31,6 +31,10 @@ header {
 #difficultChoice {          
     width: 35vw;
     background: rgb(44, 41, 41);
+    margin-bottom: 1vw;
+}
+#askYour {  
+  font-size: 0.6em;
 }
 
 
