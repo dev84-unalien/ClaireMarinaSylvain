@@ -1,33 +1,3 @@
-#log {
-  border: solid black 1px;
-  background-color: #22b573;
-  color: white;
-  border-radius: 50px;
-  width: 9vw;
-  height: 5vh;
-}
-
-#facebook {
-  border: solid black 1px;
-  background-color: #3b5997;
-  color: white;
-  border-radius: 50px;
-  width: 9vw;
-  height: 5vh;
-}
-main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-}
-input {
-  border: solid black 1px;
-  border-radius: 40px;
-  width: 50%;
-  text-align: center;
-  margin-top: 5%;
-}
 #contain {
     width: 35vw;
     height: 80vh;
@@ -36,7 +6,8 @@ input {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
+    font-family: 'Annie Use Your Telescope';
     }
 
 header {
@@ -57,7 +28,6 @@ header {
     width: 35vw;
     background: rgb(44, 41, 41);
 }
-
 
 
 
@@ -83,9 +53,22 @@ input{
   margin-top: 5%;
 }
 
-#contain {
-  width: 35vw;
-  height: 80vh;
-  background: rgb(173, 25, 25);
+#log {
+  border: solid black 1px;
+  background-color: #22b573;
+  color: white;
+  border-radius: 50px;
+  width: 9vw;
+  height: 5vh;
 }
 
+/* Claire */
+
+#facebook {
+  border: solid black 1px;
+  background-color: #3b5997;
+  color: white;
+  border-radius: 50px;
+  width: 9vw;
+  height: 5vh;
+}
