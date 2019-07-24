@@ -1,4 +1,4 @@
-<<<<<<< head #log {
+#log {
   border: solid black 1px;
   background-color: #22b573;
   color: white;
@@ -27,6 +27,54 @@ input {
   width: 50%;
   text-align: center;
   margin-top: 5%;
+#contain {
+    width: 35vw;
+    height: 80vh;
+    background: rgb(173, 25, 25);
+    font-size: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+header {
+    color: white;       
+    width: 35vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+#title {    
+    font-size: 2.5em;
+}
+
+#difficultChoice {          
+    width: 35vw;
+    background: rgb(44, 41, 41);
+}
+
+
+
+
+/* Marina */
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    border: solid black 1px;
+    border-radius: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top:5%;
 }
 .regitered {
   font-size: 0.5em;
@@ -39,3 +87,4 @@ input {
   height: 80vh;
   background: rgb(173, 25, 25);
 }
+
