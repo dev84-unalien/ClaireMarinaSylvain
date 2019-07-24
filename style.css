@@ -1,3 +1,4 @@
+
 main{
     display: flex;
     justify-content: center;
@@ -9,3 +10,10 @@ input{
     border: solid black 1px;
     border-radius: 50%
 }
+
+#contain {
+    width: 35vw;
+    height: 80vh;
+    background: rgb(173, 25, 25);
+}
+
