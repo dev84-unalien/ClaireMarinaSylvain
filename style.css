@@ -55,6 +55,7 @@ main{
     text-align: center;
     margin-top:5%;
     font-family: 'Annie Use Your Telescope';
+    font-weight: 600;
 }
 #password{
     border: solid black 1px;
@@ -63,6 +64,7 @@ main{
     text-align: center;
     margin-top:5%;
     font-family: 'Annie Use Your Telescope';
+    font-weight: 600;
 }
 
 
