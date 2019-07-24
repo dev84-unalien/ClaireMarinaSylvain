@@ -1,56 +1,41 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#log{
-    border: solid black 1px;
-    background-color: #22b573;
-    color:white;
-    border-radius: 50px;
-    width: 9vw;
-    height:5vh; ;
+<<<<<<< head #log {
+  border: solid black 1px;
+  background-color: #22b573;
+  color: white;
+  border-radius: 50px;
+  width: 9vw;
+  height: 5vh;
 }
 
-#facebook{
-    border: solid black 1px;
-    background-color:#3b5997;
-    color:white;
-    border-radius: 50px;
-    width: 9vw;
-    height: 5vh;
+#facebook {
+  border: solid black 1px;
+  background-color: #3b5997;
+  color: white;
+  border-radius: 50px;
+  width: 9vw;
+  height: 5vh;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  border: solid black 1px;
+  border-radius: 40px;
+  width: 50%;
+  text-align: center;
+  margin-top: 5%;
+}
+.regitered {
+  font-size: 0.5em;
+  color: white;
+  margin-top: 5%;
+}
+
+#contain {
+  width: 35vw;
+  height: 80vh;
+  background: rgb(173, 25, 25);
 }
