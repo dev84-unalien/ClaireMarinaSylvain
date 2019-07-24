@@ -1,3 +1,10 @@
+footer{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-top:%;
+}
+
 #log {
   border: solid black 1px;
   background-color: #22b573;
@@ -5,6 +12,7 @@
   border-radius: 50px;
   width: 9vw;
   height: 5vh;
+  margin-top:5%;
 }
 
 #facebook {
@@ -14,7 +22,9 @@
   border-radius: 50px;
   width: 9vw;
   height: 5vh;
+  margin-top:5%;
 }
+
 main {
   display: flex;
   justify-content: space-around;
@@ -77,6 +87,9 @@ input{
     text-align: center;
     margin-top:5%;
 }
+
+
+
 .regitered {
   font-size: 0.5em;
   color: white;
