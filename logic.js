@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function recupDesDonnees(){
     var login = $("#login").val();
     var password= $("#password").val();
@@ -7,7 +7,6 @@ function recupDesDonnees(){
         identifiant: login,
         password: password,
     }
-    
     $.ajax({
         type:"GET",
         url:"http://192.168.1.112:8001/login",
@@ -21,8 +20,6 @@ function recupDesDonnees(){
         alert(result.message);
     }
 }
-=======
-
 function logOnFacebook(){
     $.ajax({
         url: "http://192.168.1.112:8001/login",
@@ -36,11 +33,3 @@ function logOnFacebook(){
       });
     }
     
-
-
-
-
-
-
-
->>>>>>> 8596c193c2af669f15862081ec5c4457788bfc7c
