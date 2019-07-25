@@ -3,10 +3,11 @@ body {
 }
 
 #contain {
-    width: 100vw;
-    height: 100vh;
+    width: 45vw;
+    height: 95vh;
     background: rgb(173, 25, 25);
-    font-size: 7vw;
+    font-size: 2vw;
+    margin-left: 27.5vw;
 
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@ body {
 
 header {
     color: white;       
-    width: 100vw;
+    width: 45vw;
     
     display: flex;
     flex-direction: column;
@@ -30,7 +31,7 @@ header {
 }
 
 #difficultChoice {          
-    width: 100vw;
+    width: 45vw;
     background: rgb(44, 41, 41);
     margin-bottom: 1vw;
     font-size: 1.2em;
@@ -96,7 +97,7 @@ footer{
   background-color: #22b573;
   color: white;
   border-radius: 50px;
-  width: 39vw;
+  width: 19vw;
   height: 5vh;
   margin-top:5%;
   font-family: 'Annie Use Your Telescope';
@@ -110,11 +111,43 @@ footer{
   background-color: #3b5997;
   color: white;
   border-radius: 50px;
-  width: 39vw;
+  width: 19vw;
   height: 5vh;
   margin-top:5%;
   font-family: 'Annie Use Your Telescope';
   font-size: 0.8em;
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 680px)
+{
+  
+  
+  #contain {
+      width: 100vw;
+      height: 100vh;
+      font-size: 7vw;
+      margin-left: 0vw;
+        }
+  
+  header {    
+      width: 100vw;
+  }
+    
+  #difficultChoice {          
+      width: 100vw;
+  }
+  #askYour {  
+    font-size: 0.8em;
+  }
+  
+  
+  #log {
+    width: 39vw;
+  }
+  
+  #facebook {
+    width: 39vw;
+  }
 }
