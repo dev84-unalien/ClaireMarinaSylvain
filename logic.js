@@ -1,16 +1,16 @@
 
 function recupDesDonnees(){
-    var login = $("#login").val();
+    /*var login = $("#login").val();
     var password= $("#password").val();
-
+     }
     var utilisateur={
         identifiant: login,
         password: password,
-    }
-    $.ajax({
+   */
+        $.ajax({
         type:"GET",
         url:"http://192.168.1.112:8001/login",
-        /*data:{login:$("#login").val(), password:$("#password").val()},*/
+        /*data:{log:8001/loginin:$("#login").val(), password:$("#password").val()},*/
         success : user,
         error:function(){
             alert("Erreur");
