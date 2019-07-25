@@ -121,9 +121,7 @@ footer{
 }
 
 @media screen and (max-width: 680px)
-{
-  
-  
+{  
   #contain {
       width: 100vw;
       height: 100vh;
@@ -150,4 +148,70 @@ footer{
   #facebook {
     width: 39vw;
   }
+}
+
+@media screen and (orientation: landscape)
+{
+  
+ 
+  #contain {
+      width: 100vw;
+      height: 100vh;
+      font-size: 2vw;
+      margin: 0vw;  
+      }
+  
+  header {     
+      width: 100vw;
+      
+  }
+  
+  #title {    
+      font-size: 2.5em;
+      margin-bottom: 0vw;
+  }
+  
+  #difficultChoice {          
+      width: 100vw;
+      background: rgb(44, 41, 41);
+      margin-bottom: 0vw;
+      font-size: 1.2em;
+  }
+  #askYour {  
+    font-size: 1em;
+  }
+  header {
+    height: 15vh;
+  }
+  main {    
+    height: 55vh;
+  }
+  footer {
+    height: 20vh;
+  }
+  #logIN {
+    font-size: 1em;
+    margin-top: 18vh;
+  }
+  #log {
+    height: 12vh;
+    font-size: 1em;
+    width: 29vw;
+    margin-top:0%;
+  }
+  #facebook {
+    height: 12vh;
+    font-size: 1em;
+    width: 29vw;
+    margin-top:2vw;
+  }
+  .registered {
+    font-size: 1em;
+    margin-top: 1vh;
+  }
+  #password {
+    margin-top:2vw;
+  }
+  
+  
 }
