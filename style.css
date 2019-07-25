@@ -1,9 +1,9 @@
 
 #contain {
-    width: 35vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     background: rgb(173, 25, 25);
-    font-size: 2vw;
+    font-size: 7vw;
 
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
 
 header {
     color: white;       
-    width: 35vw;
+    width: 100vw;
     
     display: flex;
     flex-direction: column;
@@ -27,12 +27,13 @@ header {
 }
 
 #difficultChoice {          
-    width: 35vw;
+    width: 100vw;
     background: rgb(44, 41, 41);
     margin-bottom: 1vw;
+    font-size: 1.2em;
 }
 #askYour {  
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 
@@ -51,6 +52,7 @@ main{
     border-radius: 40px;
     width: 50%;
     text-align: center;
+    font-size: 1.1em;
     margin-top:5%;
     font-family: 'Annie Use Your Telescope';
     font-weight: 600;
@@ -61,6 +63,7 @@ main{
     border-radius: 40px;
     width: 50%;
     text-align: center;
+    font-size: 1.1em;
     margin-top:5%;
     font-family: 'Annie Use Your Telescope';
     font-weight: 600;
@@ -90,7 +93,7 @@ footer{
   background-color: #22b573;
   color: white;
   border-radius: 50px;
-  width: 9vw;
+  width: 39vw;
   height: 5vh;
   margin-top:5%;
   font-family: 'Annie Use Your Telescope';
@@ -104,7 +107,7 @@ footer{
   background-color: #3b5997;
   color: white;
   border-radius: 50px;
-  width: 9vw;
+  width: 39vw;
   height: 5vh;
   margin-top:5%;
   font-family: 'Annie Use Your Telescope';
